@@ -1,0 +1,20 @@
+
+.checkout-main-container {
+  padding: 20px;
+  width:100%;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width:100%;
+  border-bottom:1px solid #ccc;
+  padding-bottom:3px;
+}
+
+.checkout-item img {
+  width: 50px;
+  height: auto;
+}

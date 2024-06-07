@@ -1,0 +1,55 @@
+
+
+.product-list {
+  text-align: center;
+  margin-top:20px;
+  padding:2%;
+}
+.search-container{
+    display:flex;
+    justify-content: flex-end;
+    width:94%;
+}
+.search-sub-container{
+    border:1px solid #ccc;
+    display:flex;
+    align-items: center;
+    border-radius:4px;
+    padding: 8px;
+     transition: border-color 0.2s ease-in-out;
+
+}
+.search-sub-container:hover{
+    border-color: #00cdff;
+}
+.search-bar {
+  
+  width: 100%;
+  max-width: 300px;
+  outline:none;
+  border:none;
+}
+
+.filters {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.check-box{
+    width:20px;
+    height:20px;
+    border-radius:2px;
+    cursor:pointer;
+    margin-right:3px;
+}
+.filters h3 {
+  margin-bottom: 10px;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 5px;
+}
+.no-scroll::-webkit-scrollbar{
+    width:0;
+    height:0;
+}
